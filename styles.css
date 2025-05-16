@@ -1,0 +1,79 @@
+header{
+    display:flex;
+    justify-content:space-around;
+}
+header a{
+    color:yellow;
+    text-decoration: none;
+}
+body{
+    background-color: #66b2ff;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+.nav{
+    display:flex;
+    justify-content: space-around;
+}
+.nav a{
+    padding:20px;
+    margin:20px;
+}
+.homepage-image{
+    margin-left:35%;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+.trickshots-container{
+    background-color: #66ffff;
+}
+.trickshots-container>div{
+    padding:20px;
+}
+.about{
+    background-color: #9999ff;
+}
+.merchandise{
+    background-color: #66ff66;
+}
+.travel{
+    background-color: #ffdd00;
+}
+.dunk{
+    background-color: orange;
+}
+.trickshots{
+    background-color: #66ffff;
+}
+
+@media (max-width:1000px){
+    .nav{
+        font-size:10px;
+    }
+    .homepage-image{
+    margin-left:15%;
+    }
+    .merchandise img{
+	width:150px;
+    }
+    .merchandise h1{
+	font-size:20px;
+    }
+    .dunk h1{
+        font-size:20px;
+    }
+    .travel h2{
+        font-size:18px;
+    }
+    .dunk li{
+        font-size:14px;
+    }
+}
+@media (min-width:1000px){
+    .trickshots-container{
+    display:flex;
+    justify-content: space-around;
+    }
+}
